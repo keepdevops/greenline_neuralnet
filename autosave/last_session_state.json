@@ -1,0 +1,19 @@
+{
+  "window_geometry": "1194x1024+203+65",
+  "optimizer": "AdaBelief",
+  "learning_rate": "0.01",
+  "iterations": "1000",
+  "plot_type": "Stock Price",
+  "is_plot_detached": false,
+  "last_file_path": "/Users/porupine/redline/data/Redline6_data.duckdb",
+  "theme": "light",
+  "hyperparameters": {
+    "weight_init": "xavier",
+    "bias_init": "0.0",
+    "weight_decay": "0.001",
+    "l1_reg": "0.0",
+    "l2_reg": "0.001",
+    "dropout_rate": "0.1"
+  },
+  "timestamp": "2025-05-25T17:20:09.959501"
+}

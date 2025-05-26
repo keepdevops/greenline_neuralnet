@@ -40,8 +40,7 @@ from abc import ABC, abstractmethod
 from typing import Dict, Any, Optional, List, Tuple
 
 # Import our optimizers
-from optimizers import optimizer_registry, OptimizerBase, Hyperparameter
-from custom_optimizers.hesm import HESMOptimizer  # Add this import
+from optimizers import optimizer_registry, OptimizerBase, Hyperparameter, HESMOptimizer  # Import directly from optimizers.py
 
 # Configure logging
 logging.basicConfig(
